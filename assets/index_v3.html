@@ -29,17 +29,21 @@
         #list a {
             margin: 1em;
         }
+
+        .shadow {
+            box-shadow: 0 2px 12px 0 rgb(0 0 0)
+        }
     </style>
 </head>
-<body>
-<div style="text-align: center"><img style="width: 150px; border-radius: 10px;"
-                                     src="https://cdn.jsdelivr.net/gh/TildenJ/itiandong-static/images/avatar.jpg"/>
+<body style="background-size:cover;background-position:center; background-attachment:fixed; background-repeat:no-repeat;background-image: url('https://cdn.jsdelivr.net/gh/TildenJ/pics@pics/images/2021/06/f2927c5ab3954098e1f1afeaa137058_801d339fcac1929f9551ff490a59770c.jpg')">
+<div style="text-align: center"><img class="shadow" style="height: 150px; border-radius: 10px;"
+                                     src="https://cdn.jsdelivr.net/gh/TildenJ/pics@pics/images/2021/06/b20e240128e000e430b4a4959a9bc1c3_1_84a509cbac3aa04362fe981f992da70e.jpg"/>
 </div>
-<div class="box">
-    <input id="txtURL" type="text" value="www.google.com" autofocus>
+<div class="box" style="text-align: center">
+    <input class="shadow" style="width: 50%" id="txtURL" type="text" value="www.google.com" autofocus>
 </div>
-<div class="box">
-    <button id="btnGo">Go</button>
+<div class="box" style="text-align: center">
+    <button id="btnGo" style="width: 50%" class="shadow">Go</button>
 </div>
 <div class="box" style="display: none">
     <span>切换线路:</span>
